@@ -1,0 +1,67 @@
+Language model created by QuickLM on Sat Jan 14 04:01:46 EST 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 7 sentences and 13 words
+
+\data\
+ngram 1=13
+ngram 2=18
+ngram 3=13
+
+\1-grams:
+-0.8873 </s> -0.3010
+-0.8873 <s> -0.2407
+-1.7324 backward -0.2407
+-1.7324 browser -0.2407
+-1.7324 e-mail -0.2407
+-1.7324 forward -0.2407
+-1.7324 last -0.2846
+-1.7324 music -0.2929
+-1.7324 new -0.2929
+-1.7324 next -0.2846
+-1.4314 open -0.2846
+-1.7324 player -0.2407
+-1.4314 window -0.2407
+
+\2-grams:
+-1.1461 <s> backward 0.0000
+-1.1461 <s> forward 0.0000
+-1.1461 <s> last 0.0000
+-1.1461 <s> new 0.0000
+-1.1461 <s> next 0.0000
+-0.8451 <s> open 0.0000
+-0.3010 backward </s> -0.3010
+-0.3010 browser </s> -0.3010
+-0.3010 e-mail </s> -0.3010
+-0.3010 forward </s> -0.3010
+-0.3010 last window 0.0000
+-0.3010 music player 0.0000
+-0.3010 new e-mail 0.0000
+-0.3010 next window 0.0000
+-0.6021 open browser 0.0000
+-0.6021 open music 0.0000
+-0.3010 player </s> -0.3010
+-0.3010 window </s> -0.3010
+
+\3-grams:
+-0.3010 <s> backward </s>
+-0.3010 <s> forward </s>
+-0.3010 <s> last window
+-0.3010 <s> new e-mail
+-0.3010 <s> next window
+-0.6021 <s> open browser
+-0.6021 <s> open music
+-0.3010 last window </s>
+-0.3010 music player </s>
+-0.3010 new e-mail </s>
+-0.3010 next window </s>
+-0.3010 open browser </s>
+-0.3010 open music player
+
+\end\

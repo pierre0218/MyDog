@@ -1,0 +1,69 @@
+Language model created by QuickLM on Mon Jan 16 05:06:10 EST 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 7 sentences and 14 words
+
+\data\
+ngram 1=14
+ngram 2=19
+ngram 3=13
+
+\1-grams:
+-0.8873 </s> -0.3010
+-0.8873 <s> -0.2407
+-1.4314 下 -0.2407
+-1.7324 坐 -0.2846
+-1.7324 来 -0.2407
+-1.7324 步 -0.2407
+-1.7324 死 -0.2407
+-1.7324 装 -0.2929
+-1.7324 起 -0.2929
+-1.7324 跑 -0.2929
+-1.7324 路 -0.2407
+-1.7324 跳 -0.2407
+-1.7324 趴 -0.2846
+-1.7324 ﻿走 -0.2929
+
+\2-grams:
+-1.1461 <s> 坐 0.0000
+-1.1461 <s> 装 0.0000
+-1.1461 <s> 起 0.0000
+-1.1461 <s> 跑 0.0000
+-1.1461 <s> 跳 0.0000
+-1.1461 <s> 趴 0.0000
+-1.1461 <s> ﻿走 0.0000
+-0.3010 下 </s> -0.3010
+-0.3010 坐 下 0.0000
+-0.3010 来 </s> -0.3010
+-0.3010 步 </s> -0.3010
+-0.3010 死 </s> -0.3010
+-0.3010 装 死 0.0000
+-0.3010 起 来 0.0000
+-0.3010 跑 步 0.0000
+-0.3010 路 </s> -0.3010
+-0.3010 跳 </s> -0.3010
+-0.3010 趴 下 0.0000
+-0.3010 ﻿走 路 0.0000
+
+\3-grams:
+-0.3010 <s> 坐 下
+-0.3010 <s> 装 死
+-0.3010 <s> 起 来
+-0.3010 <s> 跑 步
+-0.3010 <s> 跳 </s>
+-0.3010 <s> 趴 下
+-0.3010 <s> ﻿走 路
+-0.3010 坐 下 </s>
+-0.3010 装 死 </s>
+-0.3010 起 来 </s>
+-0.3010 跑 步 </s>
+-0.3010 趴 下 </s>
+-0.3010 ﻿走 路 </s>
+
+\end\
